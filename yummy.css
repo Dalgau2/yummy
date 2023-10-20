@@ -1,0 +1,473 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 100%;
+    height: 35px;
+    background-color: navy;
+}
+
+.container {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #d3d0d0;
+}
+
+.yummy {
+    width: 20%;
+    padding-left: 100px;
+}
+
+.nav {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: unset;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.book {
+    width: 140px;
+    height: 45px;
+    background-color: rgb(232, 0, 0);
+    color: white;
+    line-height: 45px;
+    border-radius: 25px;
+    padding-left: 33px;
+    margin-left: 47px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 720px;
+    background-color: #d3d0d0;
+}
+
+img.pic {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 75px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: revert;
+    letter-spacing: 4px;
+}
+
+.sed {
+    width: 474px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.bookk {
+    width: 241px;
+    height: 45px;
+    background-color: rgb(232, 0, 0);
+    color: white;
+    line-height: 45px;
+    border-radius: 25px;
+    padding-left: 56px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.watch {
+    width: 251px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: flex-start;
+    color: var(--color-primary);
+    line-height: 45px;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+.bok {
+    display: flex;
+    margin-top: 33px;
+    justify-content: space-between;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sub-con {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.learn {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.sub-con-2 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    padding: 10px;
+    padding-left: 140px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+}
+
+.left {
+    width: 50%;
+    background-color: black;
+    /* background-image: url(./pwdimage/christian-mackie-cc0Gg3BegjE-unsplash.jpg); */
+    background-image: url(./pwdimage/about.jpg);
+    padding-left: 80px;
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.up {
+    height: 50%;
+    width: 100%;
+    font-style: italic;
+    font-size: 23px;
+    padding-left: 38px;
+}
+
+.down {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+img.pht {
+    width: inherit;
+    height: -webkit-fill-available;
+    padding-right: 26px;
+    margin-top: 35px;
+}
+
+.phn {
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    height: 147px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-right: 70px;
+}
+
+.ul-2 {
+    font-size: 1.2rem;
+    padding: 20px;
+    padding-left: 57px;
+    font-style: normal;
+    display: inline-block;
+}
+
+.ul-2 li {
+    margin-top: 0px;
+}
+
+span img {
+    width: 44px;
+    margin-left: -50px;
+}
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1ecec;
+    height: 550px;
+    align-items: center;
+    padding-top: 45px;
+    padding: 30px;
+
+}
+
+.card-intro {
+    width: 27%;
+    height: 440px;
+    background-color: #ce1212;
+    margin-left: 10px;
+    color: white;
+}
+
+.card {
+    width: 18%;
+    height: 390px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.card-1 {
+    width: 18%;
+    height: 390px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 42px;
+    padding: 29px;
+}
+
+p {
+    font-size: 17px;
+    padding: 17px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+
+.le {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lm {
+    height: 31px;
+    border: 20px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 39px;
+    color: #f16767;
+    font-size: 23px;
+}
+.card-c {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+h4 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.card-1 {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+svg.img\.mg {
+    width: 63px;
+    height: 63px;
+    /* border: 2px solid; */
+    padding: 20px;
+    border-radius: 51px;
+    padding-top: 15px;
+    background: #ff000024;
+    fill: #ff00009c;
+    padding-bottom: 13px;
+}
+
+img.mg {
+    width: 61px;
+    height: 58px;
+    /* border: 2px solid; */
+    padding: 10px;
+    border-radius: 146px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    background: #ff000024;
+}
+
+.container-5 {
+    display: flex;
+    height: 200px;
+}
+.nav-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.nav-2 ul li {
+    margin-left: 50px;
+}
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background: black; */
+    /* height: 500px; */
+}
+.images{
+    width:25%;
+    margin-left: 2px;
+    background-color:white;
+    /* border: 2px solid; */
+}
+.sub-items{
+    display: flex;
+    width: 100%;
+    /* background-color: #ce1212; */
+    justify-content:center;
+}
+img.menu-pic {
+    width: 100%;
+    padding:50px;
+}
+/* .images{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} */
+h3.menu {
+    font-family: serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -60px;
+}
+.images span {
+    text-align: center;
+    color: red;
+    margin-left: 130px;
+    font-size: x-large;
+    font-weight: 800;
+}
+.images p {
+    font-size: 17px;
+    padding-top: 0px;
+    margin-top: -23px;
+    margin-left: 13px;
+}
+.container-6 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #f3f3f3;
+    padding: 40px;
+    margin-top: 16px;
+}
+.left-photo{
+    width: 50%;
+    background-color: black;
+    /* background-image: url(./pwdimage/christian-mackie-cc0Gg3BegjE-unsplash.jpg); */
+    background-image: url(./pwdimage/reservation.jpg);
+    padding-left: 80px;
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-form{
+    width: 80%;
+    background-color:white;
+}
+input[type="text"] {
+    margin: 20px;
+    padding: 20px;
+}
+textarea {
+    width: 93%;
+    margin-left: 23px;
+}
+.sbt{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+input[type="submit"] {
+    width: 190px;
+    height: 38px;
+    border-radius: 23px;
+    border: 1px;
+    background-color: #ce1212;
+    color: white;
+}
+.container-7{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    color: white;
+    margin-top: 10px;
+}
+.foot {
+    width: 20%;
+    margin: 35px;
+    height: 80px;
+}
+.foot p{
+    padding-block-end: revert;
+}
+.foot span{
+    font-weight: 600;
+}
+.foot h4 {
+    font-weight: 700;
+    margin-left: 16px;
+}
